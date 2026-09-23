@@ -19,6 +19,12 @@ namespace TollFeeCalculator
         {
             TollCalculator calculator = new TollCalculator();
 
+            /*Given that there was no dummy data below, a method should be introduced to retrive data from the source relevant in this scenario.
+            The incoming data should follow a format that is aligned with the vehicle classification and date format, if it does not, functionality  
+            to convert the incoming data into a format that can be managed by the solution will have to be added. */
+
+            //GetData()
+
             // Create a vehicle instance. 
             //In a real life sceanrio it should be entered as a dynamic parameter
             Vehicle vehicle = new Vehicle(VehicleType.Car);
@@ -35,11 +41,7 @@ namespace TollFeeCalculator
 
             };
 
-            /*Given that there was no dummy data above, a method should be introduced to retrive data from the source relevant in this scenario.
-            The incoming data should follow a format that is aligned with the vehicle classification and date format, if it does not, functionality  
-            to convert the incoming data into a format that can be managed by the solution will have to be added. */
-
-            //GetData()
+           
 
 
             //   Call GetTollFee and capture the calculated integer result
